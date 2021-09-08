@@ -1,0 +1,1003 @@
+.site-footer a {
+    color: rgba(0,0,0,0.96)!important; 
+}
+.green_btn {
+    padding: 7px 50px;
+    border-radius: 40px;
+    background: #085e8e;
+    color: white !important;
+    display: inline;
+    white-space: nowrap;
+    font-size: 22px;
+    transition: .5s;
+	  line-height: 48px;
+}
+.green_btn:hover{
+	    background: #2a8abf;
+	    transition: .5s;
+}
+/* home page */
+
+.inside-article{
+	padding:0!important;
+}
+
+.separate-containers .site-main{
+	margin: 0;
+}
+@media(max-width:767px){
+	.home-banner h1{
+		font-size: 30px;
+	}
+	.home-banner h2{
+		font-size: 20px;
+	}
+	.mob-order{
+		order: -1;
+	}
+}
+.col-having-anchor a{
+	color: rgba(198,135,0,0.97);
+	transition:.4s;
+}
+
+.col-having-anchor a:hover{
+	 color: #000000;
+	transition: .5s;
+}
+.col-having-anchor ul{
+	 margin: 0 0 1.5em 1em !important;
+}
+.mb-0 blockquote{
+	margin-bottom: 0 !important;
+}
+
+@media(min-width:768px) and (max-width:992px){
+	.green_btn{
+		font-size: 12px;
+	}
+	.tab-para-col p{
+		font-size: 15px;
+    line-height: 20px;
+    margin-bottom: 6px !important;
+	}
+}
+.mb-0 p{
+	margin-bottom: 0 !important;
+}
+.logo-img .elementor-image{
+	text-align: left;
+}
+
+@media(max-width:767px){
+	.mont-nav .elementor-menu-toggle{
+		margin-top: -70px;
+	}
+	.mont-nav .elementor-nav-menu__container{
+		margin-top:50px;
+	}
+}
+
+@media(min-width:768px) and (max-width:1024px){
+	.ab-col-tab{
+		position: absolute;
+		z-index: 1;
+	}
+}
+/* new css for common class  */
+.bg-gradient-main{
+  background: linear-gradient(to right, transparent, #00000061, transparent);
+  background: -webkit-linear-gradient(to right, transparent, #00000061, transparent);
+}
+
+.elementor-14 .elementor-element.elementor-element-6012b588 div.elementor-menu-toggle{
+	background: #0a466f;
+}
+
+/* no products found page */
+
+.shop-home-secondary{
+	padding: 5px 30px;
+}
+
+/* staff member */
+.staff-member-listing div.staff-member{
+    min-height: 340px;
+}
+
+/* wages palanning form */
+.plan-form #input_3_9_6{
+    height: 43px;
+}
+
+.plan-form .gform_wrapper.gf_browser_chrome .gfield_checkbox li input, .gform_wrapper.gf_browser_chrome .gfield_checkbox li input[type=checkbox], .gform_wrapper.gf_browser_chrome .gfield_radio li input[type=radio]{
+    margin-top: -3px !important;
+}
+
+
+@media(min-width:641px) and (max-width:1439px){
+    .plan-form #input_3_9_6{
+    height: 37px !important;
+}
+}
+
+@media (min-width:1140px){
+	.plan-form select{
+	  height: 42px;
+}
+}
+
+@media(min-width:641px) and (max-width:1140px){
+	.plan-form select{
+	  height: 36px;
+}
+}
+@media (min-width:641px){
+	.plan-form .ginput_container_email input[name="input_4"]{
+	width:98% !important;
+}
+.plan-form .ginput_container_phone input[name="input_5"]{
+	width:98% !important;
+	float: right;
+}
+.plan-form  label[for="input_6_5"]{
+	padding-left:7px;
+}
+}
+
+@media (max-width:640px){
+	.plan-form #field_6_4{
+	width: 100%;
+}
+		.plan-form #field_6_5{
+	width: 100%;
+}
+	li.gfield img{
+		float: none !important;
+		display: block;
+		margin: auto;
+	}
+		.plan-form select{
+	  height: 40px;
+}
+}
+
+/* sidebar book section */
+
+.elementor-cta__content{
+	  min-height: 475px !important;
+    text-align: center;
+    max-width: 360px;
+    margin: auto;
+}
+.sidebar-books{
+	  max-width: 300px;
+    margin: auto;
+    margin-bottom: 20px;
+}
+@media(min-width:768px) and (max-width:840px){
+	.elementor-cta__content{
+    text-align: center;
+    max-width: 300px;
+    margin: auto;
+	}
+	
+}
+
+@media (max-width:767px){
+/* 	.elementor-cta__content{
+		min-height: 400px !important;
+	} */
+}
+.post-type-archive-ltobits .site-content h1{
+	font-size:3.3em;
+	font-style: normal;
+	text-align: center;
+    color: #00548e;
+    font-family: 'MrsEavesRoman';
+	
+}
+.search-results .site-content h1{
+	font-size:3.3em;
+	font-style: normal;
+	text-align: center;
+    color: #00548e;
+    font-family: 'MrsEavesRoman';
+	
+}
+
+/* flower shop */
+.post-type-archive-product .site-content h1{
+	font-size:3.3em;
+	font-style: normal;
+	text-align: center;
+    color: #00548e;
+    font-family: 'MrsEavesRoman';
+}
+
+.flower-pro ul.products li.product{
+	padding: 10px !important;
+	transition: .5s;
+}
+.flower-pro ul.products li.product:hover{
+	box-shadow: 0 0 5px grey;
+	transition: .5s;
+}
+body.woocommerce ul.products li.product a img{
+	box-shadow: none !important;
+}
+
+.woocommerce-products-header__title{
+	font-size: 3.3em;
+    line-height: 1.1;
+    font-style: normal !important;
+    text-align: center;
+    color: #0a466f;
+    font-family: 'MrsEavesRoman';
+}
+
+.archive .site-content .content-area.grid-parent{
+	padding: 60px 45px;
+}
+
+@media(max-width:767px){
+	.archive .site-content .content-area.grid-parent{
+	padding: 15px 15px;
+}
+}
+
+@media(min-width:767px) and (max-width:992px){
+	.archive .site-content .content-area.grid-parent{
+	padding: 45px 30px;
+}
+}
+
+.has-post-thumbnail ul.products li.product{
+	padding: 10px;
+    box-sizing: border-box;
+    border: 1px solid gainsboro;
+    border-radius: 3px;
+	display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.has-post-thumbnail ul.products li .woocommerce-LoopProduct-link{
+	min-height: 468px;
+	
+}
+.has-post-thumbnail ul.products li.product img{
+	max-height: 370px;
+	object-fit: cover;
+}
+
+.has-post-thumbnail ul.products li.product .add_to_cart_button{
+	text-align: center;
+}
+
+
+@media(max-width:500px){
+	.has-post-thumbnail ul.products li.product{
+		width: 100% !important;
+		float: none !important;
+	}
+}
+@media(min-width:500px) and (max-width:700px){
+	.has-post-thumbnail ul.products li .woocommerce-LoopProduct-link{
+		min-height: 370px;
+	}
+}
+
+@media(min-width:769px) and (max-width:1200px){
+	.has-post-thumbnail ul.products li .woocommerce-LoopProduct-link{
+		min-height : 300px;
+	}
+	.has-post-thumbnail ul.products li.product .add_to_cart_button{
+	text-align: center;
+		font-size: 15px !important;
+}
+}
+
+@media(min-width:1201px) and (max-width:1339px){
+	.has-post-thumbnail ul.products li .woocommerce-LoopProduct-link{
+		min-height: 450px;
+	}
+}
+
+@media(min-width:700px) and (max-width:768px){
+	.has-post-thumbnail ul.products li .woocommerce-LoopProduct-link{
+		min-height: 400px;
+	}
+}
+
+@media (max-width:435px){
+	.has-post-thumbnail ul.products li .woocommerce-LoopProduct-link{
+		min-height: 345px;
+	}
+}
+
+/* cart page */
+.woocommerce-cart .inside-article{
+	padding: 20px 150px;
+}
+
+
+@media(min-width:992px){
+	.woocommerce-cart .inside-article{
+padding: 20px 150px !important;
+}
+}
+
+@media(min-width:768px) and (max-width:992px){
+		.woocommerce-cart .inside-article{
+	padding: 20px 50px !important;
+}
+}
+
+@media(max-width:767px){
+	.woocommerce-cart .inside-article{
+	padding: 20px 20px !important;
+}
+}
+
+.woocommerce-cart .entry-title{
+	 font-family: 'MrsEavesRoman';
+    text-align: center;
+}
+
+@media(min-width:769px) and (max-width:1400px){
+	.woocommerce .cart-collaterals .cart_totals, .woocommerce-page .cart-collaterals .cart_totals{
+		    width: 75% !important;
+	}
+}
+
+/* checkout page */
+
+
+.woocommerce-checkout.inside-article{
+	padding: 20px 150px;
+}
+
+
+@media(min-width:992px){
+	.woocommerce-checkout .inside-article{
+padding: 20px 150px !important;
+}
+}
+
+@media(min-width:768px) and (max-width:992px){
+		.woocommerce-checkout .inside-article{
+	padding: 20px 50px !important;
+}
+#stripe-payment-data .form-row-first {
+		width: 43% !important;
+	}
+	#stripe-payment-data .form-row-last{
+		width: 43% !important;
+	}
+}
+
+@media(max-width:767px){
+	.woocommerce-checkout .inside-article{
+	padding: 20px 20px !important;
+}
+	#stripe-payment-data .form-row-first {
+		width: 99% !important;
+	}
+	#stripe-payment-data .form-row-last {
+		width: 99% !important;
+	}
+}
+
+.woocommerce-checkout .entry-title{
+	 font-family: 'MrsEavesRoman';
+    text-align: center;
+}
+.woocommerce-checkout .selection{
+	height: 45px !important;
+}
+ .select2-container .select2-selection--single{
+	height: 45px !important;
+}
+.select2-container--default .select2-selection--single .select2-selection__rendered{
+	line-height: 45px!important;
+}
+.select2-container--default .select2-selection--single .select2-selection__arrow{
+	height: 45px !important;
+}
+
+/* order recived */
+.woocommerce .woocommerce-customer-details address{
+	box-sizing: border-box;
+}
+#order_review_heading{
+	margin: 0 auto 15px !important;
+}
+.woocommerce-order-received .woocommerce-column--billing-address{
+	  max-width: 100% !important;
+}
+.woocommerce ul.order_details li{
+	margin-bottom: 20px;
+}
+
+@media(max-width:767px){  .woocommerce-checkout .woocommerce{
+	padding: 15px !important
+}
+}
+
+.single-product .site-content{
+	padding: 60px 45px;
+}
+
+@media(max-width:767px){
+	.single-product .site-content{
+	padding: 15px 15px;
+}
+}
+
+@media(min-width:767px) and (max-width:992px){
+	.single-product .site-content{
+	padding: 45px 30px;
+}
+
+}
+
+.single-product .entry-title{
+	 font-style: normal !important;
+	 font-family: 'MrsEavesRoman';
+}
+.single-product .qty{
+	 height: 47px !important;
+}
+
+@media(max-width:768px){
+	.single-product .qty{
+	 height: 38px !important;
+}
+}
+
+@media (max-width: 1500px) and (min-width: 1340px){
+.has-post-thumbnail ul.products li .woocommerce-LoopProduct-link {
+    min-height: 376px;
+}
+}
+
+
+/* product details trigger  */
+
+.woocommerce div.product div.images .woocommerce-product-gallery__trigger{
+	z-index: 1;
+}
+
+/* telphone anchors */
+a[href^=tel]{
+	white-space: nowrap;
+}
+
+.footer_section .elementor-row{
+	border-top: 1px solid #0f66a8;
+    margin-top: 10px;
+}
+.footer_section ul.sm-vertical li a{
+	display: inline-block;
+	padding-left: 0;
+}
+
+/* blog page */
+.blog-sec .elementor-pagination{
+	margin-top: 25px;
+}
+.blog-sec .elementor-pagination .page-numbers.current{
+	  width: 30px;
+    height: 30px;
+    border: 1px solid #00508b;
+    display: inline-block;
+	  color: #00518e !important;
+}
+
+.blog-sec .elementor-pagination .page-numbers.current:hover{
+	 color: #00518e !important;
+}
+
+.blog-sec .elementor-pagination a.page-numbers:hover{
+	color: #00518e !important;
+}
+.single-blog-col .post-navigation__prev--title{
+	 color: #c88b08;
+}
+
+/* faq page */
+.faq-sec p b{
+	color: #c88b08;
+}
+.faq-sec p strong{
+	color: #c88b08;
+}
+
+/* candle light tribute */
+
+.candle-text-col h2{
+	font-family: "MrsEaves", Sans-serif;
+}
+
+
+.obituary-sidebar-widget .textwidget div[data-elementor-type="widget"] {
+  margin: auto;
+  width: 100%;
+  max-width: 300px;
+} 
+
+/* ===== footer links ====== */
+
+.foot-links a{
+	transition: .5s;
+}
+.foot-links a:hover{
+	color: rgba(152, 152, 152, 0.96)!important;
+	transition: .5s;
+}
+
+@media (max-width:767px){
+	.book-img img{
+	max-width: 200px;
+}
+	.tab-para-col p{
+		font-size: 15px;
+		line-height: 20px;
+	}
+}
+@media (max-width:576px){
+	.mx-over{
+	  max-width: 45%;	
+	}
+}
+
+@media (min-width:576px) and (max-width:768px){
+	.wages-staff .staff-member-info-wrap{
+		font-size: 15px;
+	}
+}
+.wages-staff div.staff-member-listing{
+	  display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.video__col .elementor-column-wrap{
+	max-width: 100%;
+}
+
+.current-ltobits .site-content h1{
+	font-size:3.3em;
+	font-style: normal;
+	text-align: center;
+    color: #00548e;
+    font-family: 'MrsEavesRoman';
+}
+
+/* ========= search result style ============= */
+
+.search-result-obits-grid .elementor-row{
+	flex-wrap: wrap;
+	-webkit-flex-wrap: wrap;
+}
+
+.search-result-obits-grid .elementor-row .search-col-1{
+	order: 1;
+}
+.search-result-obits-grid .elementor-row .search-col-2{
+	order: 3;
+}
+.search-result-obits-grid .elementor-row .search-col-3{
+	order: 2;
+}
+
+.search-col-3 .obituary-sidebar-widget{
+	width: 100%;
+}
+
+@media(min-width:1100px) and (max-width:1500px){
+	.masonry .obitsearch{
+		width: 50%;
+	}
+}
+@media(min-width:768px) and (max-width:1099px){
+	.masonry .obitsearch{
+		width: 100%;
+	}
+}
+
+
+@media(min-width:769px) and (max-width:1300px){
+	.search-results .site-content{
+		padding: 30px 50px;
+	}
+}
+
+@media (max-width:768px){
+	.search-results .site-content{
+		padding: 30px 20px;
+	}
+	.masonry .elementor-column.elementor-sm-50{
+		width: 50% !important;
+	}
+	.masonry .elementor-column{
+		width: 100% !important;
+	}
+	.elementor-column.elementor-col-33{
+		width: 100%;
+	}
+	.search-result-obits-grid .elementor-row .search-col-1{
+	order: 1;
+}
+.search-result-obits-grid .elementor-row .search-col-2{
+	order: 2;
+}
+.search-result-obits-grid .elementor-row .search-col-3{
+	order: 3;
+}
+	.search-results .site-content h1{
+		 font-size: 2.3em;
+	}
+}
+
+@media (min-width:768px) and (max-width:768px) {
+	.elementor-column.elementor-col-66{
+		width: 100% !important;
+	}
+	.elementor-column.elementor-col-33{
+		width: 100%;
+	}
+}
+
+
+@media (max-width:630px){
+	.masonry .elementor-column.elementor-sm-50{
+		width: 100% !important;
+	}
+	.obitsearch article{
+		margin: auto;
+	}
+}
+
+.masonry .obitsearch article h2 {
+    color: #025299;
+    font-size: 24px;
+    margin-top: 0.66em;
+}
+
+.masonry .obitsearch article p {
+    color: #444;
+	font-size: 18px;
+	margin-bottom: 0;
+}
+.masonry .obitsearch article p.obitsearch-viewobit-link{
+	  font-size: 14px;
+	  margin-bottom: 0;
+}
+.masonry .obitsearch article img {
+	max-height: 325px;
+    object-fit: cover;
+}
+.search-col-2 a{
+	color: #11648b;
+}
+
+
+/*  */
+.single-ltobits #ltobit-timeline-entry .form-entry-input{
+	display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.single-ltobits #ltobit-timeline-entry .frmte-date-error{
+	width: 100%;
+}
+.obit-service-wrapper{
+	    border: 1px solid #ddd;
+    padding: 1em;
+    overflow: inherit;
+    margin-bottom: .5em;
+    display: flex;
+    flex-wrap: wrap;
+}
+.obit-service-wrapper .atcb-item-link{
+	    color: #11648b;
+}
+
+.obit-button{
+	text-align: left !important;
+}
+
+.blog-navigation .elementor-post-navigation__link a{
+	display: inline-flex;
+}
+.privacy-strip a:hover{
+	color: rgba(152, 152, 152, 0.96)!important;
+}
+
+.obit-links .addthis_toolbox{
+	display: inline-block;
+}
+.addtocalendar .atcb-link{
+	text-align: center;
+}
+
+@media only screen and (max-width:500px) {
+    #respond .comment-form-lt_candle ol {
+        margin: 0 0 1rem 0;
+        padding: 10px;
+    }
+}
+.frmltobitTimelineEntry label.error{
+	text-align: left;
+    width: 100%;
+}
+
+.obit-search form>div input{
+	border-radius: 5px !important;
+}
+
+.frmltobitTimelineEntry .selectDiv{
+	width: 32%;
+}
+.frmltobitTimelineEntry .selectDiv select{
+	width: 100% !important;
+}
+.date-field label.error{
+	width: 100% !important;
+	max-width: 100% !important;
+}
+
+.header-response .elementor-image>a{
+	display: inline !important;
+}
+.obit-image img{
+	width:100%;
+}
+
+/* ========== print page =========== */
+
+/* print page */
+.printPageView.grid-parent{
+	padding: 30px;
+	background: white;
+	max-width: 1100px !important;
+}
+.printPageView .site-content form input[type="checkbox"]{
+	    margin-right: 8px;
+    display: inline-block;
+}
+
+.printPageView .site-content form input[type="submit"]{
+	   background-color: #1e73be !important;
+	margin: 10px 0px;
+}
+.site-content .obit-stats{
+		padding-right: 20px;
+	padding-left: 0 !important;
+	}
+@media (max-width:576px){
+	.printPageView .site-content .obit-image{
+	width: 100%;
+	text-align: center;
+}
+	.printPageView .obit-content .obit-stats{
+		width: 100%;
+	}
+	.site-content .obit-stats{
+		padding-left: 0px !important;
+	}
+	
+}
+.printPageView .site-content .obit-image img{
+	max-width: 240px !important;
+	max-height: 330px;
+  object-fit: cover;
+}
+
+@media (min-width:576px) and (max-width:768px){
+	.printPageView .obit-content .obit-stats{
+		width: 100%;
+	}
+	.obit-content #obit-services{
+		display: block;
+    float: none;
+    width: 100%;
+	}
+}
+
+.obit-heading{
+	border-top: 0px solid #0b8ec1 !important;
+}
+
+/* @media (min-width:768px){
+	.site-content .obit-stats{
+		width:70%;
+	}
+} */
+body.single-ltobits #content.site-content {
+    padding: 50px 10px !important;
+}
+.search-results .site-content .masonry .obitsearch article{
+	width:100%;
+	box-sizing:border-box;
+}
+
+.search-row-flex .search-col-1{
+	flex-wrap: wrap;
+}
+
+.masonry .obitsearch{
+	display: block !important;
+	box-sizing: border-box;
+	flex-direction: column;
+	padding: 0px 10px;
+}
+.masonry .obitsearch.elementor-column{
+	flex-direction: column !important;
+}
+.feedburnerBox{
+	padding: 10px;
+    box-sizing: border-box;
+    background: white;
+    box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.47);
+    text-align: center;
+	max-width: 300px;
+	margin: auto;
+	margin-bottom: 20px;
+}
+.feedburnerBox form{
+	border:none !important;
+}
+.feedburnerBox input[name="email"]{
+	width: 100% !important;
+	margin-bottom: 10px;
+}
+
+.privacy-policy h2{
+	font-size: 1.6em;
+    color: #0a466f;
+    font-family: "MrsEaves", Sans-serif;
+}
+.privacy-policy h3{
+	font-weight: 400 !important;
+}
+
+.obit-search form>div input{
+	max-height: 53px;
+}
+.flower-pro .woocommerce-loop-category__title{
+	font-size:30px !important;
+	margin-bottom: 0px !important;
+	color: #075f8e !important;
+}
+@media (max-width:1440px){
+	.obit-search form>div input{
+		max-height: 47px;
+	}
+}
+.masonry .obitsearch article img{
+	 max-height: 310px;
+}
+.masonry{
+	margin-left: -10px;
+	margin-right: -10px;
+}
+.obit-links .sharethis-inline-share-buttons{
+	display: inline-block !important;
+}
+.obit-links a[title="Print"]{
+	vertical-align: bottom !important;
+}
+.single-blog-col h1{
+	font-size:40px;
+	font-style: normal;
+}
+/* ========== checkout  ============= */
+@media (max-width:1440px){
+	body.woocommerce-checkout .col2-set .col-1, body.woocommerce-checkout .col2-set .col-2, body.woocommerce-checkout #order_review_heading, body.woocommerce-checkout #order_review{
+		max-width: 100% !important;
+	}
+}
+
+.wc-payment-form div.form-row{
+	padding: 3px !important;
+}
+.masonry .obitsearch article{
+	padding:0px !important;
+}
+.searchform select.searchtext {
+    height: 53px;
+}
+
+@media (max-width: 1440px){
+	.searchform select.searchtext {
+		height: 47px;
+	}
+}
+.text-w-img img{
+	max-width: 200px;
+    margin-right: 25px;
+    margin-bottom: 12px;
+}
+@media (max-width:576px){
+	.alignleftImage {
+    float: none;
+    width: 100%;
+    text-align: center;
+    margin-right: 20px;
+}
+.text-w-img img{
+    margin-left: auto;
+    display: block;
+    margin-right: auto;
+	}
+}
+
+ul{
+	font-family: 'Arial', sans-serif !important;
+	margin-left: 20px;
+}
+ul li{
+	font-family: 'Arial', sans-serif !important;
+}
+.post-navigation__prev--label{
+	color: #00508c !important;
+}
+.post-navigation__next--label{
+	color: #00508c !important;
+}
+
+@media (min-width:641px){
+	.personal-form .ginput_container_email input[type="text"]{
+	width:98% !important;
+}
+
+.personal-form .ginput_container_phone input[type="text"]{
+	width:98% !important;
+	float: right;
+}
+}
+.gform_wrapper input[type="text"]:first-child{
+	
+}
+
+.single-blog-col .wp-caption-text{
+ line-height: 20px !important;	
+}
+.single-blog-col img{
+	padding-bottom:10px;
+}
+.single-blog-col figure.alignright{
+	margin-bottom:10px !important;
+}
+.single-blog-col figure.alignleft{
+	margin-bottom:10px !important;
+}
+.single-blog-col figure.aligncenter{
+	margin-left: auto!important;
+	margin-right: auto!important;
+	margin-bottom:10px !important;
+	
+}
+.single-blog-col .alignnone{
+	margin-left: auto!important;
+	margin-right: auto!important;
+	margin-bottom:30px !important;
+}
+@media (max-width:768px){
+	.single-blog-col .alignright{
+		margin: auto !important;
+	}
+	.single-blog-col .alignleft{
+		margin: auto !important;
+	}
+}
+.single-blog-col a{
+	color: #00518c !important;
+}
+@media (min-width:769px){
+	.single-blog-col .alignleft{
+	margin-right: 10px !important;
+}
+}

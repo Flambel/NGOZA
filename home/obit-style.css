@@ -1,0 +1,1515 @@
+/* Styles for obit display
+  Leap Tie, Inc. / DNichols, SWolf
+*/
+
+
+/* for GeneratePress theme */
+
+body.post-type-archive-ltobits #content,
+body.single-ltobits #content {
+    padding: 0px !important;
+}
+
+body.post-type-archive-ltobits #content.site-content,
+body.single-ltobits #content.site-content {
+    padding: 50px 0px !important;
+}
+
+@media screen and (max-width:960px) {
+    body.post-type-archive-ltobits #content.site-content,
+    body.single-ltobits #content.site-content {
+        padding: 20px !important;
+    }
+}
+
+.text-center {
+    text-align: center;
+}
+
+body.post-type-archive-ltobits #content-obits,
+body.single-ltobits #content-obits,
+body.current-ltobits #content-obits {
+    float: left;
+    width: 75%;
+}
+
+body.post-type-archive-ltobits #sidebar,
+body.single-ltobits #sidebar,
+body.current-ltobits #sidebar {
+    float: right;
+    width: 25%;
+  background: #feefdb;
+    margin-top: -145px;
+    padding-top: 80px;
+}
+
+@media screen and (max-width:960px) {
+    body.post-type-archive-ltobits #content-obits,
+    body.post-type-archive-ltobits #sidebar,
+    body.single-ltobits #content-obits,
+    body.single-ltobits #sidebar,
+    body.current-ltobits #content-obits,
+    body.current-ltobits #sidebar {
+        float: none;
+        width: 100%;
+    }
+    body.post-type-archive-ltobits #sidebar,
+body.single-ltobits #sidebar,
+body.current-ltobits #sidebar {
+    margin-top: -20px;
+}
+}
+
+body.post-type-archive-ltobits #sidebar img,
+body.single-ltobits #sidebar img,
+body.current-ltobits #sidebar img {
+    margin-bottom: 20px;
+}
+
+.obit-search form>div {
+    float: left;
+    width: 16%;
+    padding: 0 0.5% 0 0;
+}
+
+.obit-search form>div:last-child {
+    width: 17.5%;
+    padding: 0 0;
+}
+
+.obit-search form>div input {
+    display: block;
+    width: 100%;
+}
+
+@media screen and (max-width:960px) {
+    .obit-search form>div {
+        float: none;
+        width: 100% !important;
+        padding: 0 0 6px 0;
+    }
+    .obit-search form>div input {
+        display: block;
+        width: 100%;
+    }
+}
+
+.obit-search form>div:last-child {
+    padding-right: 0;
+}
+
+.obit-search form input[type="submit"] {
+    margin: 0;
+}
+
+.obit-intro {
+    clear: both;
+    padding-top: 10px
+}
+
+.masonry {
+    margin: 0 auto;
+}
+
+.masonry .obitsearch {
+    /* box-sizing: border-box; */
+    margin: 0 0 0.5em 0;
+    width: 33.333%;
+    /* float:left; */
+}
+
+.masonry .grid-sizer {
+/*     width: 33.333%; */
+}
+
+@media screen and (max-width:960px) {
+    .masonry .obitsearch {
+        width: 100%;
+        margin: 0 0 0.5em 0;
+    }
+    .masonry .grid-sizer {
+        width: 100%;
+    }
+}
+
+.masonry .obitsearch article {
+    padding: 0.66em;
+}
+
+.masonry .obitsearch article a {
+    /* box-sizing: border-box; */
+    display: block;
+    /* width:100%;
+  height:100%; */
+    position: relative;
+    transition: all 0.2s ease-in-out;
+    transform: scale(1);
+    border: 1px solid #ddd;
+    padding: 1em 1em .3em;
+    border-bottom: 3px solid #ddd;
+    transition: all 0.2s ease-in-out;
+    box-shadow: 0 0 0 rgba(0, 0, 0, 0);
+    /* background: -moz-radial-gradient(center, ellipse cover, rgba(255,255,255,1) 0%, rgba(242,233,225,0.5) 100%);
+  background: -webkit-radial-gradient(center, ellipse cover, rgba(255,255,255,1) 0%,rgba(242,233,225,0.5) 100%);
+  background: radial-gradient(ellipse at center, rgba(255,255,255,1) 0%,rgba(242,233,225,0.5) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#80f2e9e1',GradientType=1 ); */
+    background-color: #faf8f4;
+}
+
+.masonry .obitsearch article img {
+    display: block;
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+<<<<<<< HEAD
+=======
+	max-height: 325px;
+    object-fit: cover;
+>>>>>>> master
+}
+
+.masonry .obitsearch article h2 {
+    color: #025299;
+<<<<<<< HEAD
+    font-size: 2em;
+=======
+    font-size: 25px;
+>>>>>>> master
+    margin-top: 0.66em;
+}
+
+.masonry .obitsearch article p {
+    color: #444;
+<<<<<<< HEAD
+=======
+	font-size: 18px;
+	margin-bottom: 0;
+>>>>>>> master
+}
+
+.masonry .obitsearch article p.obitsearch-viewobit-link {
+    text-align: right;
+    font-size: .7em;
+    text-transform: uppercase;
+    color: #999;
+    font-weight: 700;
+    padding-top: 0.33em;
+    padding-right: 0.66em;
+    margin-bottom: 1em;
+    transition: all 0.2s ease-in-out;
+    border-top: 1px solid #ddd;
+}
+
+.masonry .obitsearch article a:hover,
+.masonry .obitsearch article a:active {
+    /* border-color:#841530; */
+    transform: scale(1.02);
+    box-shadow: 0 2px 20px rgba(0, 0, 0, 0.1);
+    background-color: rgba(255, 255, 255, 1);
+}
+
+.masonry .obitsearch article a:hover p.obitsearch-viewobit-link {
+    padding-right: 0.66em;
+    color: #025299;
+    border-top: 1px solid #025299;
+}
+
+.no-date {
+    display: none;
+}
+
+.obit-links {
+    list-style-type: none;
+    max-width: 400px;
+}
+
+.obit-image {
+    float: left;
+    width: 270px;
+}
+
+.obit-image img {
+    max-width: 250px;
+    height: 300px;
+    object-fit: cover;
+}
+
+.obit-stats {
+    float: left;
+}
+
+.obit-stats h1 {
+    margin: 0;
+}
+
+.obit-archive-links {
+    width: 100%;
+}
+
+.obit-button,
+button[type="submit"].obit-button,
+.atcb-link,
+.elementor-tab-title {
+    display: inline-block;
+    padding: .25em 1em;
+    color: #fff !important;
+<<<<<<< HEAD
+    text-align: left;
+=======
+    text-align: left !important;
+>>>>>>> master
+    text-decoration: none;
+    font-size: 1em;
+    cursor: pointer;
+    overflow: visible;
+    width: auto;
+    box-sizing: border-box;
+    line-height: 1.618em;
+    margin: 0 .327em;
+    -webkit-font-smoothing: subpixel-antialiased;
+    background-color: #00548e;
+    border: 0;
+    margin: .2em 0;
+    border-radius: 20px;
+<<<<<<< HEAD
+}
+
+.elementor-toggle-item {
+    max-width: 50%;
+}
+
+=======
+}
+
+.elementor-toggle-item {
+    max-width: 50%;
+}
+
+>>>>>>> master
+.obit-button .fa,
+button[type="submit"].obit-button .fa,
+.atcb-link .fa {
+    font-size: 1.2em;
+    margin-right: 20px;
+}
+
+.obit-button.timeline,
+button[type="submit"].obit-button.timeline,
+.atcb-link.timeline {
+/*     width: 50%; */
+    padding: .25em 1em;
+    margin: .2em;
+    margin-right: 0;
+    margin-left: 0;
+<<<<<<< HEAD
+}
+
+@media screen and (max-width:600px) {
+    .obit-button.timeline,
+    button[type="submit"].obit-button.timeline,
+    .atcb-link.timeline {
+/*         width: 100%; */
+        margin-right: 0;
+        margin: .2em 0;
+    }
+}
+
+=======
+}
+
+@media screen and (max-width:600px) {
+    .obit-button.timeline,
+    button[type="submit"].obit-button.timeline,
+    .atcb-link.timeline {
+/*         width: 100%; */
+        margin-right: 0;
+        margin: .2em 0;
+    }
+}
+
+>>>>>>> master
+.tl-post .obit-button {
+    margin: 1em 0;
+}
+
+.otimeline-buttons {
+    margin-bottom: 2em;
+}
+
+@media screen and (max-width:600px) {
+    .otimeline-buttons {
+        max-width: 400px;
+    }
+}
+
+.post-content .obit-links p {
+    margin: 0;
+}
+
+.obit-text {
+    padding-top: 2em;
+    clear: both;
+}
+
+
+/* #content { padding-top: 50px; } */
+
+
+/* #sidebar { padding: 50px 50px 50px 0 !important; } */
+
+#content.content-timeline {
+    width: 100%;
+}
+
+
+/* #obit-sidebar {
+  float: right;
+  width: 23%;
+} */
+
+#obit-charities h2,
+#obit-services h2,
+#obit-guestbook h2,
+#obit-services p,
+#obit-guestbook-form h2 {
+    margin: 0 0 1em;
+}
+
+.obit-service-wrapper {
+    border: 1px solid #ddd;
+    padding: 1em;
+    overflow: hidden;
+    margin-bottom: .5em;
+}
+
+#obit-services p.obit-indent {
+    margin: 0 0 0 1em;
+}
+
+/* #obit-services p.obit-address-indent {
+    margin: 0 0 0 2em;
+} */
+
+.obit-service,
+.obit-service-links {
+    float: left;
+}
+
+.obit-service {
+    width: 60%;
+}
+
+.obit-service h4,
+.obit-charity h4 {
+    margin-bottom: 0;
+}
+
+.obit-service-links {
+/*     width: 40%; */
+    padding-top: 3em;
+}
+
+#obit-services .obit-service-links p {
+    margin: 0 0 .2em;
+}
+
+.obit-charity {
+    float: left;
+    width: 100%;
+  box-sizing: border-box;
+    border: 1px solid #ddd;
+    padding: 1em;
+    margin-right: 5%;
+}
+
+.addthis_toolbox {
+    margin-top: 1em;
+}
+
+
+/* addthis box adjustments (facebook more prominent) */
+
+.addthis_toolbox a.addthis_button_facebook span {
+    height: 48px !important;
+    width: 148px !important;
+    margin-right: 8px;
+    margin-top: -8px;
+    position: relative;
+    border-radius: 20px 0 0 20px;
+<<<<<<< HEAD
+}
+
+.addthis_toolbox a.addthis_button_facebook span svg {
+    margin-left: 8px;
+    margin-top: 8px;
+}
+
+.addthis_toolbox a.addthis_button_facebook span:after {
+    content: "Share on Facebook";
+    font-size: 13px;
+    font-family: "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+    font-weight: 700;
+    line-height: 1.1;
+    color: #fff;
+    position: absolute;
+    top: 10px;
+    left: auto;
+    right: 0;
+    bottom: auto;
+    z-index: 999;
+    width: 88px;
+    display: block;
+}
+
+=======
+}
+
+.addthis_toolbox a.addthis_button_facebook span svg {
+    margin-left: 8px;
+    margin-top: 8px;
+}
+
+.addthis_toolbox a.addthis_button_facebook span:after {
+    content: "Share on Facebook";
+    font-size: 13px;
+    font-family: "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+    font-weight: 700;
+    line-height: 1.1;
+    color: #fff;
+    position: absolute;
+    top: 10px;
+    left: auto;
+    right: 0;
+    bottom: auto;
+    z-index: 999;
+    width: 88px;
+    display: block;
+}
+
+>>>>>>> master
+@media screen and (max-width: 1440px) {
+    .addthis_toolbox a.addthis_button_facebook span {
+        width: 128px !important;
+    }
+    .addthis_toolbox a.addthis_button_facebook span:after {
+        width: 75px;
+    }
+}
+
+.obit-heading {
+    font-size: 1.7em !important;
+    margin-top: 1em;
+    padding-top: .4em;
+    border-top: 2px solid #0b8ec1;
+}
+
+
+/* for headings on single */
+
+.obit-heading-main {
+    font-size: 1.7em !important;
+    margin-bottom: 1em;
+    padding-bottom: .4em;
+    border-bottom: 2px solid #0b8ec1;
+}
+
+
+/* for heading archive */
+
+.obit-search {
+    margin-bottom: 2em;
+    border-bottom: 2px solid #0b8ec1;
+    padding: 0 0 1em;
+}
+
+.post-content {
+    overflow: hidden;
+    margin-bottom: 3em;
+}
+
+#respond .fusion-title {
+    display: none;
+}
+
+#gform_fields_2 li {
+    margin-top: 2em;
+}
+
+.comment-content,
+.comment-respond {
+    margin-top: 0 !important;
+<<<<<<< HEAD
+}
+
+.comment-content {
+    border-left: 6px solid #ddd !important;
+}
+
+.entry-meta {
+    margin-bottom: 10px !important;
+}
+
+=======
+}
+
+.comment-content {
+    border-left: 6px solid #ddd !important;
+}
+
+.entry-meta {
+    margin-bottom: 10px !important;
+}
+
+>>>>>>> master
+
+/* for add to calendar link */
+
+.addtocalendar var {
+    display: none;
+}
+
+.addtocalendar {
+    position: relative;
+    display: block;
+    background: transparent!important;
+}
+
+.atcb-link {
+/*     display: block; */
+    outline: none!important;
+    cursor: pointer;
+}
+
+.atcb-link:focus~ul,
+.atcb-link:active~ul,
+.atcb-list:hover {
+    visibility: visible;
+}
+
+.atcb-list {
+    visibility: hidden;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 170px;
+    z-index: 900;
+}
+
+.atcb-list,
+.atcb-item {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    background: #fff;
+  padding-left:10px;
+}
+
+.atcb-item {
+    float: none;
+    text-align: left;
+}
+
+.atcb-item-link {
+    text-decoration: none;
+    outline: none;
+    display: block;
+}
+
+.atcb-item.hover,
+.atcb-item:hover {
+    position: relative;
+    z-index: 900;
+    cursor: pointer;
+    text-decoration: none;
+    outline: none;
+}
+
+.atc-style-blue .atcb-link,
+.atc-style-blue .atcb-link:hover,
+.atc-style-blue .atcb-link:active,
+.atc-style-blue .atcb-link:focus {
+    /*margin: 0;
+    padding: 7px 25px;
+    color: #fff;
+    font-family: "Verdana";
+    font-size: 14px;
+    text-decoration: none;
+    outline: none;
+    line-height: 20px;
+    vertical-align: middle;
+    background: @blue;
+    box-shadow: 0 0 40px rgba(0, 0, 0, .13) inset;
+    border-radius: 4px;
+    zoom: 1;*/
+    display: inline-block;
+    padding: .25em 1em;
+    color: #fff;
+    text-align: left;
+    text-decoration: none;
+    font-size: 1em;
+    cursor: pointer;
+    overflow: visible;
+    width: auto;
+    line-height: 1.618em;
+    margin: 0 .327em;
+    -webkit-font-smoothing: subpixel-antialiased;
+    background: #0b8ec1;
+    border: 0;
+    margin: .2em 0;
+    width: 100%;
+    border-radius: 20px 0 0 20px;
+}
+
+.atc-style-blue .atcb-list {
+    width: 170px;
+    border: 1px solid #bababa;
+    border-radius: 2px;
+    box-shadow: 0 0 5px #AAA;
+}
+
+.atc-style-blue .atcb-list,
+.atc-style-blue .atcb-item {
+    background: #fff;
+    color: #000;
+}
+
+.atc-style-blue .atcb-item,
+.atc-style-blue .atcb-item-link {
+    line-height: 1.3em;
+    vertical-align: middle;
+    zoom: 1;
+}
+
+.atc-style-blue .atcb-item-link,
+.atc-style-blue .atcb-item-link:hover,
+.atc-style-blue .atcb-item-link:active,
+.atc-style-blue .atcb-item-link:focus {
+    color: #000;
+    font-family: "Verdana";
+    font-size: 14px;
+    text-decoration: none;
+    outline: none;
+    padding: 5px 15px;
+}
+
+.atc-style-blue .atcb-item-link:hover,
+.atc-style-blue .atcb-item-link:active,
+.atc-style-blue .atcb-item-link:focus {
+    color: #fff;
+}
+
+.atc-style-blue .atcb-item.hover,
+.atc-style-blue .atcb-item:hover {
+    background: #4281f4;
+}
+
+
+/*--------------------------------------------------------------
+Media Queries
+--------------------------------------------------------------*/
+
+
+/* Extra Small Devices, Phones */
+
+
+/* Small Devices, Tablets */
+
+@media only screen and (max-width: 768px) {
+    .obit-image,
+    obit-stats,
+    .obit-archive-links {
+        width: 100%;
+        float: none;
+        text-align: center;
+    }
+    #obit-sidebar {
+        float: none;
+        width: 95%;
+        margin: 0 auto;
+    }
+    .obit-charity {
+        float: none;
+        width: 100%;
+        margin: 0 auto;
+    }
+    .obit-service,
+    .obit-service-links {
+        width: 100%;
+        float: none;
+    }
+    .obit-button {
+        border-radius: 20px;
+    }
+    .obit-button.timeline {
+/*         width: 100%; */
+    }
+    .green_btn_wtpad {
+        padding: 0px 65px !important;
+        width: 100%;
+    }
+}
+
+
+/* Medium Devices, Desktops */
+
+@media only screen and (min-width: 641px) {
+    .gform_wrapper ul.gform_fields li.gfield {
+        padding-right: 0 !important;
+    }
+}
+
+
+/* ============ */
+
+
+/* timelines */
+
+
+/* ============ */
+
+body.post-type-archive-timeline #content {
+    width: 100%;
+    float: none;
+    padding: 0 !important;
+}
+
+body.post-type-archive-timeline #content.site-content {
+    padding: 80px !important;
+    box-sizing: border-box;
+}
+
+.timeline-content h3,
+#timeline-container .datebox {
+    margin-bottom: 0;
+    margin-top: 2em;
+    padding-top: 2em;
+    border-top: 1px solid #ddd;
+}
+
+.timeline-content h3 {
+    font-size: 150%;
+}
+
+.timeline-content .image {
+    background-color: #f9f9f9;
+<<<<<<< HEAD
+    text-align: center;
+    margin-top: 1em;
+}
+
+.timeline-content .image img {
+    display: block;
+    margin-bottom: 0 !important;
+}
+
+.timeline-content .comment {
+    padding-left: 1em;
+    margin-left: 1em;
+    margin-bottom: 0.33em;
+    border-left: 6px solid #ddd;
+}
+
+.timeline-content .comment em {
+    font-size: 70%;
+}
+
+
+/* ============ */
+
+
+/* light a candle */
+
+
+/* ============ */
+
+#respond .comment-form-lt_candle {
+    clear: both;
+    margin: 0 0 1em;
+    padding: 1em 0 0;
+    border: 1px solid #f2f2f2;
+}
+
+#respond .comment-form-lt_candle label[for="lt_candle"] {
+    display: none;
+}
+
+#respond .comment-form-lt_candle ol {
+    margin: 1em 1.5em;
+}
+
+@media only screen and (max-width:500px) {
+    #respond .comment-form-lt_candle ol {
+        margin: 0 0 1rem 0;
+        padding: 0;
+    }
+}
+
+#respond .comment-form-lt_candle li {
+    float: left;
+    margin: 0 1% 0 0;
+    /*width:32%;*/
+    width: 11%;
+    list-style: none;
+}
+
+#respond .comment-form-lt_candle li:first-child {
+    display: inline-block;
+    margin-bottom: 2%;
+    width: 100%;
+}
+
+#respond .comment-form-lt_candle li input[type="radio"] {
+    margin-top: 9px;
+    margin-right: 5px;
+    width: auto;
+    background: transparent;
+}
+
+#respond .comment-form-lt_candle li:first-child input[type="radio"] {
+    margin-top: 5px;
+    min-width: 1px !important;
+    width: auto !important;
+}
+
+#respond .comment-form-lt_candle label img {
+    width: 32px;
+    height: auto;
+}
+
+.commentlist .the-comment .comment-text {
+    margin-left: 0;
+}
+
+.comment-form-lt_candle ol:after,
+#comments .the-comment .comment-text p:after {
+    clear: both;
+    display: table;
+    content: "";
+}
+
+#comments .the-comment .comment-text img {
+    width: 75px;
+    height: auto;
+}
+
+#comment-input input#comment-submit {
+    height: auto !important;
+}
+
+.grid-container {
+    max-width: 100% !important;
+}
+
+.post-type-archive-ltobits .site-content h1 {
+    text-align: center;
+=======
+    text-align: center;
+    margin-top: 1em;
+}
+
+.timeline-content .image img {
+    display: block;
+    margin-bottom: 0 !important;
+}
+
+.timeline-content .comment {
+    padding-left: 1em;
+    margin-left: 1em;
+    margin-bottom: 0.33em;
+    border-left: 6px solid #ddd;
+}
+
+.timeline-content .comment em {
+    font-size: 70%;
+}
+
+
+/* ============ */
+
+
+/* light a candle */
+
+
+/* ============ */
+
+#respond .comment-form-lt_candle {
+    clear: both;
+    margin: 0 0 1em;
+    padding: 1em 0 0;
+    border: 1px solid #f2f2f2;
+}
+
+#respond .comment-form-lt_candle label[for="lt_candle"] {
+    display: none;
+}
+
+#respond .comment-form-lt_candle ol {
+    margin: 1em 1.5em;
+}
+
+@media only screen and (max-width:500px) {
+    #respond .comment-form-lt_candle ol {
+        margin: 0 0 1rem 0;
+        padding: 10px;
+    }
+}
+
+#respond .comment-form-lt_candle li {
+    float: left;
+    margin: 0 1% 0 0;
+    /*width:32%;*/
+    width: 11%;
+    list-style: none;
+}
+
+#respond .comment-form-lt_candle li:first-child {
+    display: inline-block;
+    margin-bottom: 2%;
+    width: 100%;
+}
+
+#respond .comment-form-lt_candle li input[type="radio"] {
+    margin-top: 9px;
+    margin-right: 5px;
+    width: auto;
+    background: transparent;
+}
+
+#respond .comment-form-lt_candle li:first-child input[type="radio"] {
+    margin-top: 5px;
+    min-width: 1px !important;
+    width: auto !important;
+}
+
+#respond .comment-form-lt_candle label img {
+    width: 32px;
+    height: auto;
+}
+
+.commentlist .the-comment .comment-text {
+    margin-left: 0;
+}
+
+.comment-form-lt_candle ol:after,
+#comments .the-comment .comment-text p:after {
+    clear: both;
+    display: table;
+    content: "";
+}
+
+#comments .the-comment .comment-text img {
+    width: 75px;
+    height: auto;
+}
+
+#comment-input input#comment-submit {
+    height: auto !important;
+}
+
+.grid-container {
+    max-width: 100% !important;
+}
+
+.post-type-archive-ltobits .site-content h1 {
+    text-align: center;
+>>>>>>> master
+    color: #00548e;
+    font-family: 'MrsEavesRoman';
+    font-style: normal !important;
+}
+
+#content-obits {
+    box-sizing: border-box;
+    padding: 20px 10px 20px 100px;
+}
+
+.searchform .searchsubmit {
+    background-color: #00548e !important;
+    transition: .5s;
+}
+
+.searchform .searchsubmit:hover {
+    background-color: #2589b9 !important;
+    transition: .5s;
+}
+
+.obit-archive-links a:nth-child(1) {
+    color: #00548e;
+}
+
+.obit-button {
+    transition: .5s;
+}
+
+.obit-button:hover {
+    transition: .5s;
+    background-color: #2589b9;
+}
+
+@media (min-width:576px) and (max-width:960px) {
+    #content-obits {
+        box-sizing: border-box;
+        padding: 20px 50px 20px 50px;
+    }
+}
+
+@media (max-width:768px) {
+    #content-obits {
+        box-sizing: border-box;
+        padding: 0px;
+    }
+    .searchform {
+        margin: auto;
+    }
+    .atcb-link {
+        border-radius: 20px;
+    }
+    .green_btn_wtpad {
+        padding: 0px 65px !important;
+        font-size: 20px !important;
+    }
+    .obit-content .obit-stats {
+        width: 100%;
+<<<<<<< HEAD
+        text-align: center;
+=======
+/*         text-align: center; */
+>>>>>>> master
+    }
+    .obit-links {
+        max-width: 100%;
+    }
+}
+
+.single-ltobits .site-content h1 {
+    text-align: center;
+    color: #12648b;
+    font-family: 'MrsEavesRoman';
+}
+
+.atcb-link {
+    transition: .5s;
+}
+
+.atcb-link:hover {
+    transition: .5s;
+    background-color: #2589b9 !important;
+}
+
+.green_btn_wtpad {
+    padding: 2px 65px !important;
+    border-radius: 22px;
+    background: #085e8e !important;
+    color: white !important;
+    display: inline;
+    white-space: nowrap;
+    font-size: 22px !important;
+    font-family: 'MrsEavesRoman';
+    line-height: 2;
+    border: 3px solid #3a7594 !important;
+    transition: .5s;
+    margin-top: 10px;
+}
+
+.green_btn_wtpad:hover {
+    transition: .5s;
+    background: #0b7bb9 !important;
+    color: #ffffff !important;
+    border-color: #0d91da;
+}
+
+@media (min-width:768px){
+  .obit-button, button[type="submit"].obit-button, .atcb-link, .elementor-tab-title{
+    min-width: 315px;
+  }
+  .obit-service-links{
+    padding-top: 0;
+  }
+}
+
+@media (max-width:768px){
+  .obit-button, button[type="submit"].obit-button, .atcb-link, .elementor-tab-title{
+    min-width: 280px;
+  }
+  .obit-service-wrapper {
+     border: 0px solid #ddd !important; 
+     padding: 0 !important; 
+    overflow: hidden;
+    margin-bottom: .5em;
+}
+  .obit-charity{
+    border: 0px solid #ddd !important; 
+     padding: 0 !important; 
+  }
+}
+
+@media (max-width:576px){
+  .obit-button, button[type="submit"].obit-button, .atcb-link, .elementor-tab-title{
+    font-size: 15px;
+  }
+  .search-results .site-content {
+    padding: 30px 20px !important;
+}
+  .search-results .site-content .masonry .obitsearch article {
+    padding: 0 !important;
+}
+
+}
+
+
+.search-results .site-content{
+  padding: 30px 100px;
+}
+
+.search-results .site-content .masonry .obitsearch article{
+  min-width: 280px;
+}
+
+.search-no-results .grid-container{
+  max-width: 100%;
+}
+.search-no-results .site-content{
+  padding: 30px 100px;
+}
+
+@media (min-width: 768px){
+.search-no-results .searchform .elementor-column.elementor-col-14, .elementor-column[data-col="14"] {
+    width: 14.285%;
+    display: inline-block !important;
+}
+  .obituary-sidebar-widget .textwidget{
+  display: flex;
+    flex-wrap: wrap;
+}
+.obituary-sidebar-widget .textwidget div[data-elementor-type="widget"] {
+  margin: auto;
+<<<<<<< HEAD
+  width: 300px;
+} 
+}
+
+=======
+  width: 100%;
+  max-width: 300px;
+} 
+}
+.obituary-sidebar-widget .textwidget div[data-elementor-type="widget"] {
+  margin: auto;
+  width: 100%;
+  max-width: 300px;
+} 
+>>>>>>> master
+
+.search-no-results .elementor-col-100{
+  margin-bottom: 10px;
+}
+
+
+@media(min-width:768px) and (max-width:1100px){
+  .obit-search form>div {
+    float: left;
+    width: 32%!important;
+    padding: 0 0.5% 5px 0;
+}
+  .obit-search form>div:last-child {
+    width: 32% !important;
+    padding: 0 0;
+}
+}
+
+#comment-submit{
+<<<<<<< HEAD
+  padding: 5px 80px;
+=======
+    padding: 5px 80px;
+>>>>>>> master
+    border-radius: 25px;
+    background: #00548e;
+    color: white !important;
+    display: inline;
+    white-space: nowrap;
+    font-size: 20px;
+    font-family: 'MrsEavesRoman';
+    line-height: 2;
+    border: 3px solid #354b75;
+    transition: .5s;
+    margin-top: 10px;
+}
+
+#comment-submit:hover{
+  background: #348ece;
+    border: 3px solid #233f733b;
+    transition: .5s;
+}
+
+
+/* search no result */
+
+@media(min-width:768px){
+  .obit-search .elementor-column.elementor-col-14, .elementor-column[data-col="14"]{
+      width: 14.285%;
+  display: inline-block;
+}
+} 
+
+.search-no-results .site-content{
+  padding: 60px 20px;
+}
+.obit-search .searchsubmit{
+    width: 100%;
+    background: #00548e;
+  transition: .5s;
+}
+
+.obit-search .searchsubmit:hover{
+  transition:.5s;
+  opacity: .9;
+}
+.searchform{
+  margin-bottom: 1px;
+}
+
+
+/* sidebar widget */
+.obituary-sidebar-widget .elementor-widget-container{
+    margin-bottom: 20px !important;
+<<<<<<< HEAD
+    box-shadow: 0 0 10px #c3c3c3;
+}
+
+
+=======
+/*     box-shadow: 0 0 10px #c3c3c3; */
+}
+
+.search .site-content h1{
+	font-size: 3.3em;
+    font-style: normal;
+    text-align: center;
+    color: #00548e;
+    font-family: 'MrsEavesRoman';
+}
+.search .site-content{
+	max-width: 90%;
+    margin: auto
+}
+
+/* ============ obituary search result style ============== */
+
+.search-result-obits-grid .elementor-row{
+	flex-wrap: wrap;
+	flex-wrap: -webkit-wrap;
+}
+
+.search-result-obits-grid .elementor-row .search-col-1{
+	order: 1;
+}
+.search-result-obits-grid .elementor-row .search-col-2{
+	order: 3;
+}
+.search-result-obits-grid .elementor-row .search-col-3{
+	order: 2;
+}
+
+.frmltobitTimelineEntry label.error{
+	text-align: left;
+    width: 100%;
+}
+
+
+/*============================= new changes obit    =========================================  */
+
+
+.current-ltobits .site-content h1{
+	font-size:3.3em;
+	font-style: normal;
+	text-align: center;
+    color: #00548e;
+    font-family: 'MrsEavesRoman';
+}
+
+/* ========= search result style ============= */
+
+.search-result-obits-grid .elementor-row{
+	flex-wrap: wrap;
+	-webkit-flex-wrap: wrap;
+}
+
+.search-result-obits-grid .elementor-row .search-col-1{
+	order: 1;
+}
+.search-result-obits-grid .elementor-row .search-col-2{
+	order: 3;
+}
+.search-result-obits-grid .elementor-row .search-col-3{
+	order: 2;
+}
+
+.search-col-3 .obituary-sidebar-widget{
+	width: 100%;
+}
+
+@media(min-width:1100px) and (max-width:1500px){
+	.masonry .obitsearch{
+		width: 50%;
+	}
+}
+@media(min-width:768px) and (max-width:1099px){
+	.masonry .obitsearch{
+		width: 100%;
+	}
+}
+
+
+@media(min-width:769px) and (max-width:1300px){
+	.search-results .site-content{
+		padding: 30px 50px;
+	}
+}
+
+@media (max-width:768px){
+	.search-results .site-content{
+		padding: 30px 20px;
+	}
+	.masonry .elementor-column.elementor-sm-50{
+		width: 50% !important;
+	}
+	.masonry .elementor-column{
+		width: 100% !important;
+	}
+	.elementor-column.elementor-col-33{
+		width: 100%;
+	}
+	.search-result-obits-grid .elementor-row .search-col-1{
+	order: 1;
+}
+.search-result-obits-grid .elementor-row .search-col-2{
+	order: 2;
+}
+.search-result-obits-grid .elementor-row .search-col-3{
+	order: 3;
+}
+	.search-results .site-content h1{
+		 font-size: 2.3em;
+	}
+}
+
+@media (min-width:768px) and (max-width:768px) {
+	.elementor-column.elementor-col-66{
+		width: 100% !important;
+	}
+	.elementor-column.elementor-col-33{
+		width: 100%;
+	}
+}
+
+
+@media (max-width:630px){
+	.masonry .elementor-column.elementor-sm-50{
+		width: 100% !important;
+	}
+	.obitsearch article{
+		margin: auto;
+	}
+}
+
+.masonry .obitsearch article h2 {
+    color: #025299;
+    font-size: 24px;
+    margin-top: 0.66em;
+}
+
+.masonry .obitsearch article p {
+    color: #444;
+	font-size: 18px;
+	margin-bottom: 0;
+}
+.masonry .obitsearch article p.obitsearch-viewobit-link{
+	  font-size: 14px;
+	  margin-bottom: 0;
+}
+.masonry .obitsearch article img {
+	max-height: 325px;
+    object-fit: cover;
+}
+.search-col-2 a{
+	color: #11648b;
+}
+
+
+/*  */
+.single-ltobits #ltobit-timeline-entry .form-entry-input{
+	display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.single-ltobits #ltobit-timeline-entry .frmte-date-error{
+	width: 100%;
+}
+.obit-service-wrapper{
+	    border: 1px solid #ddd;
+    padding: 1em;
+    overflow: inherit;
+    margin-bottom: .5em;
+    display: flex;
+    flex-wrap: wrap;
+}
+.obit-service-wrapper .atcb-item-link{
+	    color: #11648b;
+}
+
+.obit-button{
+	text-align: left !important;
+}
+
+.blog-navigation .elementor-post-navigation__link a{
+	display: inline-flex;
+}
+.privacy-strip a:hover{
+	color: rgba(152, 152, 152, 0.96)!important;
+}
+
+.obit-links .addthis_toolbox{
+	display: inline-block;
+}
+.addtocalendar .atcb-link{
+	text-align: center;
+}
+
+@media only screen and (max-width:500px) {
+    #respond .comment-form-lt_candle ol {
+        margin: 0 0 1rem 0;
+        padding: 10px;
+    }
+}
+.frmltobitTimelineEntry label.error{
+	text-align: left;
+    width: 100%;
+}
+
+.obit-search form>div input{
+	border-radius: 5px !important;
+}
+
+.frmltobitTimelineEntry .selectDiv{
+	width: 32%;
+}
+.frmltobitTimelineEntry .selectDiv select{
+	width: 100% !important;
+}
+.date-field label.error{
+	width: 100% !important;
+	max-width: 100% !important;
+}
+
+.header-response .elementor-image>a{
+	display: inline !important;
+}
+.obit-image img{
+	width:100%;
+}
+
+
+
+
+>>>>>>> master
